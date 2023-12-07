@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주의_펫티켓</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: '맑은고딕';
+            font-size: 14px;
+            color: #333333;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #logo {
+            float: left;
+            margin: 35px 0 0 20px;
+        }
+        #menus {
+            float: right;
+            margin-top: 35px;
+        }
+        #main_menu {
+            margin-top: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 16px;
+            color: black;
+            font-weight: bold;
+        }
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+        }
+
+        #main_img {
+            width: 100%;
+            height: 500px;
+            background-image: url(img/caution_img.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom 42% center;
+            background-size: 100%;
+            margin-top: 20px;
+        }
+        #main_text {
+            width: 1140px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 150px;
+        }
+        #main_text h3 {
+            font-size: 50px;
+        }
+        #main_text p {
+            font-size: 20px;
+        }
+
+        #sub_menu {
+            width: 100%;
+            margin-top: 150px;
+            text-align: center;
+            font-size: 0;
+        }
+        #sub_menu li {
+            display: inline-block;
+            width: 20%;
+            max-width: 170px;
+            padding: 10px 0;
+            background-color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border: solid 1px #dfdfdf;
+        }
+
+        #main_contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #main_contents h1 {
+            width: 100%;
+            margin-top: 50px;
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #ccc;
+        }
+        #main_contents h3 {
+            border-left: solid 3px #96B3DD;
+            padding-left: 5px;
+            margin: 25px 0 40px 0;
+        }
+        #main_contents p {
+            margin: 20px;
+        }
+
+        .main_box {
+            margin-top: 50px;
+            padding-left: 20px;
+        }
+        .box {
+            width: 960px;
+            padding: 18px;
+            margin: 50px;
+            border: solid 3px #96B3DD;
+        }
+        .box p {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .history p{
+            font-weight: normal;
+        }
+        
+        #sub_menu a {
+            text-decoration: none;
+            padding: 10px 30px;
+        }
+        /************** footer **************/
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+            background-color: #2c2a29;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            /* border: solid 1px green; */
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+            /* border: solid 1px red; */
+        }
+        #address {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            line-height: 140%;
+            /* border: solid 1px red; */
+        }
+
+        /************** 버튼 호버효과 **************/
+        #main_menu a:link, a:visited {
+            color: #444;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #main_menu a:hover, a:active {
+            color: #96B3DD;
+            font-weight: bold;
+            background-color: transparent;
+        }
+        #sub_menu li:link, li:visited {
+            color: #dfdfdf;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #sub_menu li:hover, li:active {
+            background-color: #96B3DD;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="200"></a>
+        </div>
+        <nav id="menus">
+            <ul id="main_menu">
+                <li><a href="breed.html">Breed</a></li>
+                <li><a href="caution.html">Caution</a></li>
+                <li><a href="roommate.html">Roommate</a></li>
+                <li><a href="fashion_item.html">Fashion item</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+        <div id="main_text">
+            <h3>Caution</h3>
+            <p>You must keep this in mind</p>
+        </div>
+        <nav id="sub_menu">
+            <ul>
+                <li><a href="caution.html">Food</a></li>
+                <li><a href="caution2.html">Health</a></li>
+                <li><a href="caution3.html">Petiquette</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    </section>
+        <div id="main_contents">
+            <h1>Petiquette</h1>
+            <ul class="main_box">
+                <li>
+                    <div class="box">
+                        <h2>반려인이라면 기억해야 할 5가지</h2>
+                        <div class="history">
+                            <ul>
+                                <li><br>
+                                    <strong>1.</strong>
+                                    반려견과 동반하여 외출 시, 목줄 · 가슴줄 및 인식표 착용 필수! <br> (* 맹견의 경우 입마개도 필수 착용)
+                                </li><br>
+                                <li>
+                                    <strong>2.</strong>
+                                    2개월령 이상의 개는 시·군·구청 또는 동물등록 대행 기관에 동물등록 <br>
+                                    - 미등록 시 과태료 : (1차) 20만 원 (2차) 40만 원 (3차 이상) 60만 원
+                                </li><br>
+                                <li>
+                                    <strong>3.</strong>
+                                    반려견과 함께 외출 시, 배변봉투를 챙겨주세요. <br>
+                                    - 위반  시 과태료 : (1차) 5만 원 (2차) 7만 원 (3차 이상) 10만 원
+                                </li><br>
+                                <li>
+                                    <strong>4.</strong>
+                                    맹견 소유자는 법정 교육 이수, 책임보험 가입이 의무 <br>
+                                    - 위반  시 과태료 : (1차) 100만 원 (2차) 200만 원 (3차 이상) 300만 원 <br>
+                                    <small>* 맹견 종류 : 도사견, 아메리칸 핏불테리어, 아메리카 스태퍼드셔 테리어, 스태퍼드셔 불테리어, 로트와일러 등 5종과 그 잡종의 견</small>
+                                </li><br>
+                                <li>
+                                    <strong>5.</strong>
+                                    털이 푸석푸석하다면 영양분이 결핍을 의심해봐야한다. 또한 산책을 하고 나면 외부 기생충에 노출될 수 있기 때문에 산책후, 빗질을 해주면서 꼼꼼히 피부를 체크해주는 것이 중요하다.
+                                </li><br>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2>비반려인​이 알아두면 좋은  TIP!</h2>
+                        <div class="history">
+                            <ul>
+                                <li><br>
+                                    <strong>1. </strong>
+                                    타인의 반려견의 눈을 빤히 응시하지 말아주세요. 공격의 신호로 받아들여질 수 있어요.
+                                </li>
+                                <li><br>
+                                    <strong>2. </strong>
+                                    타인의 반려견을 만지기 전 견주의 동의를 먼저 구해야 합니다.
+                                </li>
+                                <li><br>
+                                    <strong>3. </strong>
+                                    타인의 반려견에게 견주의 동의 없이 먹이를 주면 안 됩니다.
+                                </li>
+                                <li><br>
+                                    <strong>4. </strong>
+                                    타인의 반려견에게 갑자기 다가가거나 소리를 지르지 말아주세요.
+                                </li>
+                                <li><br>
+                                    <strong>5. </strong>
+                                    누군가에게 소중한 존재일 수 있는 반려동물에게 불쾌한 언행을 삼가 주세요.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    <section>
+
+    <!-- footer -->
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <a href="index.html"><img src="img/logo_w.png" width="200"></a>
+            </div>
+            <ul id="address">
+                <li>Kaywon University digital media design.</li>
+                <li>Email:1925cjstk@naver.com</li>
+                <li>copyright©2023 Lee Seung Yeon All rights reserved. <br>
+                    교육용 목적으로 사용되었습니다.</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+</body>
+</html>

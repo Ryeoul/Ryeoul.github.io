@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이템</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: '맑은고딕';
+            font-size: 14px;
+            color: #333333;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #logo {
+            float: left;
+            margin: 35px 0 0 20px;
+        }
+        #menus {
+            float: right;
+            margin-top: 35px;
+        }
+        #main_menu {
+            margin-top: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 16px;
+            color: black;
+            font-weight: bold;
+        }
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+        }
+
+        #main_img {
+            width: 100%;
+            height: 500px;
+            background-image: url(img/Fashionitem_img.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom 45% center;
+            background-size: 100%;
+            margin-top: 20px;
+        }
+        #main_text {
+            width: 1140px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 150px;
+        }
+        #main_text h3 {
+            font-size: 50px;
+        }
+        #main_text p {
+            font-size: 20px;
+        }
+
+        #sub_menu {
+            width: 100%;
+            margin-top: 150px;
+            text-align: center;
+            font-size: 0;
+        }
+        #sub_menu li {
+            display: inline-block;
+            width: 20%;
+            max-width: 170px;
+            padding: 10px 0;
+            background-color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border: solid 1px #dfdfdf;
+        }
+
+        #main_contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #main_contents h1 {
+            width: 100%;
+            margin-top: 50px;
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #ccc;
+        }
+        #main_contents ul {
+            margin-top: 90px;
+            border-left: solid 1px #ccc;
+            
+        }
+
+        .box {
+            float: left;
+            padding: 18px;
+            /* border: solid 1px #ececec; */
+            /* border-left: 1px solid transparent; */
+        }
+        .box p {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .box img {
+            border: solid 2px #ccc;
+            
+        }
+
+        /* 버튼 호버효과 */
+        a:link, a:visited {
+            color: #444;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            color: #96B3DD;
+            font-weight: bold;
+        }
+
+        /************** footer **************/
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+            background-color: #2c2a29;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            /* border: solid 1px green; */
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+            /* border: solid 1px red; */
+        }
+        #address {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            line-height: 140%;
+            /* border: solid 1px red; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="200"></a>
+        </div>
+        <nav id="menus">
+            <ul id="main_menu">
+                <li><a href="breed.html">Breed</a></li>
+                <li><a href="caution.html">Caution</a></li>
+                <li><a href="roommate.html">Roommate</a></li>
+                <li><a href="fashion_item.html">Fashion item</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+        <div id="main_text">
+            <h3>Fashion item</h3>
+            <p>How is it? Pretty, right?</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="main_contents">
+            <h1>Fashion item</h1>
+            <ul class="main_box">
+                <li>
+                    <div class="box">
+                        <img src="img/sub4_img2.jpg">
+                        <p>삑삑이 공</p>
+                        <p>삑삑이 소리가나면 자다가도  벌떡 일어나서<br> 신나게 정신없이 가지고 놀다가 잠듦.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub4_img.jpg">
+                        <p>봉제인형</p>
+                        <p>분해하는 것을 너무 좋아해서 하루만에 인형들이<br> 솜이 터져서 청소하다보면 솜이 굴러다님.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub4_img3.jpg">
+                        <p>너구리 옷</p>
+                        <p>겨울에 산책나갈 때 애용하는 옷. <br> 귀여운 조합으로 모두의 시선을 사로잡을 수 있음.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub4_img4.jpg">
+                        <p>토순이 양털조끼</p>
+                        <p>겨울에 집에서 입는 옷.<br> 두가지 다 있어서 입고싶은것 골라서 입는다.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub4_img5.jpg">
+                        <p>UFO 넥카라</p>
+                        <p>눈을 자주 비벼서 손이 닿지 않도록 하기위해<br> 외출전에 착용해준다.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub4_img6.jpg">
+                        <p>이름,등록번호 각인 목걸이</p>
+                        <p>주로 산책나갈 때 사용. 언제든지 <br>잃어버리는 일이 있을 수도있어서 만들었다.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="clear"></div>
+
+    <!-- footer -->
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <a href="index.html"><img src="img/logo_w.png" width="200"></a>
+            </div>
+            <ul id="address">
+                <li>Kaywon University digital media design.</li>
+                <li>Email:1925cjstk@naver.com</li>
+                <li>copyright©2023 Lee Seung Yeon All rights reserved. <br>
+                    교육용 목적으로 사용되었습니다.</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+</body>
+</html>

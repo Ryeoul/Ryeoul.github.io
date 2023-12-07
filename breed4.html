@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강아지종류</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: '맑은고딕';
+            font-size: 14px;
+            color: #333333;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #logo {
+            float: left;
+            margin: 35px 0 0 20px;
+        }
+        #menus {
+            float: right;
+            margin-top: 35px;
+        }
+        #main_menu {
+            margin-top: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 16px;
+            color: black;
+            font-weight: bold;
+        }
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+        }
+
+        #main_img {
+            width: 100%;
+            height: 500px;
+            background-image: url(img/breed_img.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom 60% center;
+            background-size: 100%;
+            margin-top: 20px;
+        }
+        #main_text {
+            width: 1140px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 150px;
+        }
+        #main_text h3 {
+            font-size: 50px;
+        }
+        #main_text p {
+            font-size: 20px;
+        }
+
+        #sub_menu {
+            width: 100%;
+            margin-top: 150px;
+            text-align: center;
+            font-size: 0;
+        }
+        #sub_menu li {
+            display: inline-block;
+            width: 20%;
+            max-width: 170px;
+            padding: 10px 0;
+            background-color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border: solid 1px #dfdfdf;
+        }
+
+        #main_contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #main_contents h1 {
+            width: 100%;
+            margin-top: 50px;
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #ccc;
+        }
+        #main_contents ul {
+            margin-top: 90px;
+            border-left: solid 1px #ccc;
+        }
+        .box {
+            float: left;
+            padding: 18px;
+            border: solid 1px #ececec;
+            /* border-left: 1px solid transparent; */
+        }
+        .box p {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        #sub_menu a {
+            text-decoration: none;
+            padding: 10px 30px;
+        }
+        /************** footer **************/
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+            background-color: #2c2a29;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            /* border: solid 1px green; */
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+            /* border: solid 1px red; */
+        }
+        #address {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            line-height: 140%;
+            /* border: solid 1px red; */
+        }
+
+        /* 버튼 호버효과 */
+        #main_menu a:link, a:visited {
+            color: #444;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #main_menu a:hover, a:active {
+            color: #96B3DD;
+            font-weight: bold;
+            background-color: transparent;
+        }
+        #sub_menu li:link, li:visited {
+            color: #dfdfdf;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #sub_menu li:hover, li:active {
+            background-color: #96B3DD;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="200"></a>
+        </div>
+        <nav id="menus">
+            <ul id="main_menu">
+                <li><a href="breed.html">Breed</a></li>
+                <li><a href="caution.html">Caution</a></li>
+                <li><a href="roommate.html">Roommate</a></li>
+                <li><a href="fashion_item.html">Fashion item</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+        <div id="main_text">
+            <h3>Breed</h3>
+            <p>Learn about the breed</p>
+        </div>
+        <nav id="sub_menu">
+            <ul>
+                <li><a href="breed.html">초소형견</a></li>
+                <li><a href="breed2.html">소형견</a></li>
+                <li><a href="breed3.html">중형견</a></li>
+                <li><a href="breed4.html">대형견</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section>
+        <div id="main_contents">
+            <h1>대형견</h1>
+            <ul class="main_box">
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge25.jpg">
+                        <p>버니즈 마운틴 도그</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge26.jpg">
+                        <p>사모예드</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge27.jpg">
+                        <p>아프간 하운드</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge28.jpg">
+                        <p>알레스칸 말라뮤트</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge29.jpg">
+                        <p>벨지안 쉽독</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge30.jpg">
+                        <p>올드 잉글리쉬 쉽독</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge31.jpg">
+                        <p>불테리어</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="img/sub1_imge32.jpg">
+                        <p>그레이트데인</p>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+    <div class="clear"></div>
+
+    <!-- footer -->
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <a href="index.html"><img src="img/logo_w.png" width="200"></a>
+            </div>
+            <ul id="address">
+                <li>Kaywon University digital media design.</li>
+                <li>Email:1925cjstk@naver.com</li>
+                <li>copyright©2023 Lee Seung Yeon All rights reserved. <br>
+                    교육용 목적으로 사용되었습니다.</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주의_건강체크</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: '맑은고딕';
+            font-size: 14px;
+            color: #333333;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #logo {
+            float: left;
+            margin: 35px 0 0 20px;
+        }
+        #menus {
+            float: right;
+            margin-top: 35px;
+        }
+        #main_menu {
+            margin-top: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 16px;
+            color: black;
+            font-weight: bold;
+        }
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+        }
+
+        #main_img {
+            width: 100%;
+            height: 500px;
+            background-image: url(img/caution_img.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom 42% center;
+            background-size: 100%;
+            margin-top: 20px;
+        }
+        #main_text {
+            width: 1140px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 150px;
+        }
+        #main_text h3 {
+            font-size: 50px;
+        }
+        #main_text p {
+            font-size: 20px;
+        }
+
+        #sub_menu {
+            width: 100%;
+            margin-top: 150px;
+            text-align: center;
+            font-size: 0;
+        }
+        #sub_menu li {
+            display: inline-block;
+            width: 20%;
+            max-width: 170px;
+            padding: 10px 0;
+            background-color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border: solid 1px #dfdfdf;
+        }
+
+        #main_contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #main_contents h1 {
+            width: 100%;
+            margin-top: 50px;
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #ccc;
+        }
+        #main_contents h3 {
+            border-left: solid 3px #96B3DD;
+            padding-left: 5px;
+            margin: 25px 0 40px 0;
+        }
+        #main_contents p {
+            margin: 20px;
+        }
+
+        #text_imge {
+            margin-top: 50px;
+            float: left;
+        }
+        .main_text {
+            width: 500px;
+            float: left;
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+        .main_text li{
+            
+            padding: 10px;
+        }
+        
+        #sub_menu a {
+            text-decoration: none;
+            padding: 10px 30px;
+        }
+        /************** footer **************/
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+            background-color: #2c2a29;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            /* border: solid 1px green; */
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+            /* border: solid 1px red; */
+        }
+        #address {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            line-height: 140%;
+            /* border: solid 1px red; */
+        }
+
+        /************** 버튼 호버효과 **************/
+        #main_menu a:link, a:visited {
+            color: #444;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #main_menu a:hover, a:active {
+            color: #96B3DD;
+            font-weight: bold;
+            background-color: transparent;
+        }
+        #sub_menu li:link, li:visited {
+            color: #dfdfdf;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #sub_menu li:hover, li:active {
+            background-color: #96B3DD;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="200"></a>
+        </div>
+        <nav id="menus">
+            <ul id="main_menu">
+                <li><a href="breed.html">Breed</a></li>
+                <li><a href="caution.html">Caution</a></li>
+                <li><a href="roommate.html">Roommate</a></li>
+                <li><a href="fashion_item.html">Fashion item</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+        <div id="main_text">
+            <h3>Caution</h3>
+            <p>You must keep this in mind</p>
+        </div>
+        <nav id="sub_menu">
+            <ul>
+                <li><a href="caution.html">Food</a></li>
+                <li><a href="caution2.html">Health</a></li>
+                <li><a href="caution3.html">Petiquette</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    </section>
+        <div id="main_contents">
+            <h1>Health</h1>
+            <div id="text_imge">
+                <img src="img/sub2_img.jpg">
+            </div>
+            <ul class="main_text">
+                <li>지나치게 마르거나, 등이 굽어 있지는 않는지 확인하는 것이 좋습니다.
+                    갈비뼈와 척추뼈가 도드라져 있다면 영양 상태가
+                    좋지 않거나 병이 있을 가능성이 높습니다.
+                    탈모나 발진, 비듬이 없고 깨끗하고 부드러운 상태인지 확인합니다.</li>
+                <li>
+                    <strong>코 :</strong>
+                    코의 촉촉함은 강아지 건강의 척도이다. 코가 갈색으로 변했다면 산책으로 햇빛을 쬐주고 삶은 당근을 먹으면 코에 색소가 올라와 다시 검은 코가 될 수 있으므로 추천</li>
+                <li>
+                    <strong>식욕 :</strong>
+                    소화를 잘 못시켜 소화 섭취량이 줄어든것 같으면 하루정도는 물만 주면서 굶기는 것도 방법이다. 오래 지속되면 병원에 데려가야한다.
+                </li><br>
+                <li>
+                    <strong>배설물 :</strong>
+                    변의상태(형태, 색, 양, 수분)를 보는 건 매우 중요하다. 소변의 색(농도, 짙은정도)과 여부, 냄새를 통해 방광염, 요로결석, 요도염을 진단할 수 있다.
+                </li>
+                <li>
+                    <strong>털과 피부 상태 :</strong>
+                    털이 푸석푸석하다면 영양분이 결핍을 의심해봐야한다. 또한 산책을 하고 나면 외부 기생충에 노출될 수 있기 때문에 산책후, 빗질을 해주면서 꼼꼼히 피부를 체크해주는 것이 중요하다.
+                </li><br><br>
+            </ul>
+            <ul>
+                
+                <li>
+                    <strong>구강건강 :</strong>
+                    강아지도 나이가 들면 이빨이나 잇몸이 약해집니다.
+                    구강 상태에 따라서 딱딱한 건사료를 씹지 못해 음식을 먹지 않으려는 모습도 발견할 수 있습니다.
+                    이럴 때에는 사료를 부드럽게 물에 불려주거나
+                    습식 캔 사료를 제공하여 식욕을 자극해 주는 것이 좋습니다.
+                    강아지의 입 냄새가 심해진다면 치주염도 의심해야합니다.
+                    치아에 들러붙은 치석과 세균은 잇몸을 붓게 하고 치주염, 신우신염 등 합병증을 유발하기 때문입니다.
+                    정기적인 스케일링을 통해서 치석을 제거하고
+                    동물 전용 치약을 이용해 매일 양치를 시켜 구강 건강을 꼼꼼히 챙기도록 합니다.
+                </li><br>
+                <li>
+                    <strong>비만 :</strong>
+                    노령견이 되면 눈에 띄게 움직임이 적어지고, 소모하는 에너지도 이전보다 20~30% 정도 줄어듭니다.
+                    이 때 음식의 종류와 섭취량을 조절하지 않는다면 비만견이 될 가능성이 높습니다.
+                    개들에게도 비만은 심장질환, 관절이상, 당뇨, 지방간, 호흡장애 등
+                    여러 가지 질병의 원인이 되고 다양한 합병증을 유발합니다.
+                    코카스파니엘이나 닥스훈트 등 같이비만이 되기 쉬운 품종의 개는 각별한 식단관리가 필요합니다.
+                    활동량에 따라서 지방이 적게 들어간 사료를 정해진 시간과 양에 맞추어 제공하는 것이 중요합니다.
+                </li><br>
+                <li>
+                    <strong>백내장 :</strong>
+                    노령견이 흔히 앓는 질환 중 하나입니다.
+                    낯선 곳에서 부딪치거나 선뜻 움직이지 않는다면 눈 건강을 의심해야 합니다.
+                    노화로 인해 시력 손실로 둔탁해졌을 수 있기 때문입니다.
+                    특히 눈 질병은 방치하면 백내장이나 핵경화증으로 발전할 수 있습니다.
+                    백내장은 눈이 하얗게 보이기 시작하면서 끝내 완전히 시력을 잃게 되는 병입니다.
+                    반면 핵경화증은 눈 속 핵 주변이 혼탁해지는 모습을 띕니다.
+                    두 질병은 육안으로 구별하기가 어려우므로 반드시 수의사의 진단을 받고 치료를 시작하도록 합니다.
+                </li><br>
+                <li>
+                    <strong>관절염 :</strong>
+                    움직임이 적어지거나 다리를 절뚝거린다면 퇴행성관절염일 가능성이 높습니다.
+                    특히 실내에서 생활한 소형견들은 슬개골탈구에 취약합니다.
+                    슬개골탈구란 허벅지 끝 부분에 있는 타원형 뼈 '슬개골'이 뒤틀리는 질병입니다.
+                    치와와, 말티즈, 푸들 등 소형견이 바닥이 미끄러운 장판 생활을 할 때
+                    다리 안쪽의 뼈에 문제가 생깁니다.
+                    슬개골탈구가 한 번 시작하면 근육의 위축과 다리모양의 변형 등
+                    인대가 끊어져 걸을 수 없는 상태까지 진행됩니다.
+                    불편한 움직임을 보인다면 관절에 무리가 가는 산책과 운동은 금지하고
+                    영양보조제로 오메가3나 콘드로이틴, 글루코사민 등을 섭취시키는 것이 좋습니다.
+                    비만한 노형견이라면 식단조절을 통한 체중감량이 필수적입니다.
+                </li><br>
+                <li>
+                    <strong>치매 :</strong>
+                    강아지도 치매에 걸립니다.
+                    정확히 말하면 '인식불능증'에 걸려 주인도 못 알아보는 지경에 이르는 것.
+                    언제부턴가 대소변 실수를 하고 집안 구석에 숨어있거나
+                    불안하게 배회하고 잠을 이루지 못한다면 치매를 의심해보아야 합니다.
+                    치매는 늙어가면서 나타나는 자연스러운 현상이므로 예방이 중요합니다.
+                    반려인은 강아지와 소통을 자주하거나 장난감 제공, 잦은 산책,
+                    다른 반려견들과의 만남 등을 통해서 뇌에 자극을 주고 운동 능력을 유지하도록 합니다.
+                    치매가 시작 되었다면, 가속화되기 전에 동물병원을 찾는 것이 좋습니다.
+                </li><br>
+                <li>
+                    <strong>당뇨병 :</strong>
+                    췌장에 이상이 생겼을 때 당뇨가 발생합니다.
+                    이 때 반려견은 혈액 중 당의 농도를 조절하지 못해서 물을 자주 마시거나
+                    소변을 자주보고, 구토를 하는 이상 증세를 보입니다.
+                    과체중, 비만견이 취약한 당뇨병은 반드시 동물병원에 내방해
+                    약물처방을 받고 인슐린을 조절해야 합니다.
+                    당뇨가 심해지면 실명을 하거나 다른 합병증을 유발하므로
+                    강아지에게는 치명적입니다.
+                    특히 사람이 먹는 짜고 단 음식은 반려견에게 절대 주지 않습니다.
+                </li>
+            </ul>
+        </div>
+    <section>
+    <div class="clear"></div>
+
+    <!-- footer -->
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <a href="index.html"><img src="img/logo_w.png" width="200"></a>
+            </div>
+            <ul id="address">
+                <li>Kaywon University digital media design.</li>
+                <li>Email:1925cjstk@naver.com</li>
+                <li>copyright©2023 Lee Seung Yeon All rights reserved. <br>
+                    교육용 목적으로 사용되었습니다.</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+</body>
+</html>

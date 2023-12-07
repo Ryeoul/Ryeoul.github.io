@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주의사항</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: '맑은고딕';
+            font-size: 14px;
+            color: #333333;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #logo {
+            float: left;
+            margin: 35px 0 0 20px;
+        }
+        #menus {
+            float: right;
+            margin-top: 35px;
+        }
+        #main_menu {
+            margin-top: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 16px;
+            color: black;
+            font-weight: bold;
+        }
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+        }
+
+        #main_img {
+            width: 100%;
+            height: 500px;
+            background-image: url(img/caution_img.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom 42% center;
+            background-size: 100%;
+            margin-top: 20px;
+        }
+        #main_text {
+            width: 1140px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 150px;
+        }
+        #main_text h3 {
+            font-size: 50px;
+        }
+        #main_text p {
+            font-size: 20px;
+        }
+
+        #sub_menu {
+            width: 100%;
+            margin-top: 150px;
+            text-align: center;
+            font-size: 0;
+        }
+        #sub_menu li {
+            display: inline-block;
+            width: 20%;
+            max-width: 170px;
+            padding: 10px 0;
+            background-color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border: solid 1px #dfdfdf;
+        }
+
+        #main_contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #main_contents h1 {
+            width: 100%;
+            margin-top: 50px;
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #ccc;
+        }
+        #main_contents h3 {
+            border-left: solid 3px #96B3DD;
+            padding-left: 5px;
+            margin: 25px 0 40px 0;
+        }
+        #main_contents p {
+            margin: 20px;
+        }
+        #sub_menu a {
+            text-decoration: none;
+            padding: 10px 30px;
+        }
+        /************** footer **************/
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+            background-color: #2c2a29;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            /* border: solid 1px green; */
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 50px 0 0 30px;
+            /* border: solid 1px red; */
+        }
+        #address {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            line-height: 140%;
+            /* border: solid 1px red; */
+        }
+
+        /************** 버튼 호버효과 **************/
+        #main_menu a:link, a:visited {
+            color: #444;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #main_menu a:hover, a:active {
+            color: #96B3DD;
+            font-weight: bold;
+            background-color: transparent;
+        }
+        #sub_menu li:link, li:visited {
+            color: #dfdfdf;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        #sub_menu li:hover, li:active {
+            background-color: #96B3DD;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="200"></a>
+        </div>
+        <nav id="menus">
+            <ul id="main_menu">
+                <li><a href="breed.html">Breed</a></li>
+                <li><a href="caution.html">Caution</a></li>
+                <li><a href="roommate.html">Roommate</a></li>
+                <li><a href="fashion_item.html">Fashion item</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+        <div id="main_text">
+            <h3>Caution</h3>
+            <p>You must keep this in mind</p>
+        </div>
+        <nav id="sub_menu">
+            <ul>
+                <li><a href="caution.html">Food</a></li>
+                <li><a href="caution2.html">Health</a></li>
+                <li><a href="caution3.html">Petiquette</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    </section>
+        <div id="main_contents">
+            <h1>Food</h1>
+            <ul class="main_text">
+                <li>
+                    <h3>YES</h3>
+                    <p><strong>북어</strong> :
+                        단백질, 아미노산이 많이 함유되어 있어 기력회복에 좋습니다.
+                        강아지용 북어를 급여해주셔도 되고 일반 북어도 급여해주어도 되는데
+                        일반 북어는 물에 푹 담가 염분을 꼭 제거하고 급여해주세요.
+                        끓는 물에 끓여주면 염분제거가 확실하게 된답니다.</p>
+                    <p><strong>두부</strong> :
+                        콜레스테롤을 낮추고 소화 흡수에 도움이 됩니다.
+                        고기 알레르기가 있는 강아지에게 대체식품으로 좋습니다.
+                        단, 두부도 염분이 있으니 꼭 염분을 제거 후 급여해주세요.</p>
+                    <p><strong>파프리카</strong> :
+                        비타민A, C가 풍부하여 항산화 효과가 있습니다.
+                        특히 비만인 강아지에게 좋습니다.
+                        깨끗하게 세척해서 급여하셔도 되고 끓는 물에 살짝 익혀서 급여해도 좋습니다.</p>
+                    <p><strong>연어</strong> :
+                        면역력 강화, 뇌세포 발달, 피부질환 등 많은 곳에 도움을 줍니다.
+                        강아지용으로 건조되어 나온 것을 급여하거나 반드시 익혀서 급여해주세요.
+                        사람 먹 듯 회로 먹는건 안 됩니다.</p>
+                    <p><strong>고구마</strong> :
+                        노화 방지, 피로 해소, 변비에 좋습니다.
+                        다량 급여 시 가스가 차거나 비만의 원인이 될 수 있으니 소량만, 정량만 급여해주세요</p>
+                </li>
+                <li>
+                    <h3>NO</h3>
+                    <p><strong>초콜릿</strong> :
+                        강아지에게 주면 안되는 대표적인 것은 초콜릿입니다. 반려견에게는 독 같이 작용한다고 합니다. 특히 카카오성분이 많은 다크초콜릿은 더 좋지 않습니다. 구토와 탈수, 복부 통증, 심한 불안, 근육 떨림, 부정맥, 체온 상승, 발작이 일어날 수 있고 심한 경우 죽을 수도 있습니다.</p>
+                    <p><strong>포도</strong> :
+                        당장 증상이 나타나지는 않지만 신부전을 일으킬 수 있어서 개를 비롯한 반려동물에게 매우 위험합니다. 일단 신부전이 발병하면 3~4일 이내에 죽을 수 있으며 구토와 설사, 혼수 상태, 탈수, 식욕 부진과 같은 증상을 나타납니다.</p>
+                    <p><strong>양파,마늘</strong> :
+                        개의 심호흡을 방해하고 붉은 혈액세포를 손상시키는 화합물을 함유되어 있습니다. 증상이 바로 나타나지 않어 나빠질때까지 모를 수 있습니다. 소변이 색이 진한 오렌지색이나 어둔운 빨간색으로 변하면 음식 속에 포함된 이런 재료가 문제일 수 있으며, 심한 경우에는 수혈이 필요할 수도 있습니다.</p>
+                    <p><strong>우유,치즈</strong> :
+                        일부 사람도 우유 속에 함유된 유당과 같은 물질을 소화하지 못합니다. 사람도 '유당불당증' 이 있기 때문에 설사를 하는 분들도 있습니다. 개는 전혀 우유를 소화하지 못합니다. 치즈 등 유제품에 있는 것을 먹으면 설사를 일으킬 수 있습니다.</p>
+                    <p><strong>어패류</strong> :
+                        새우, 조개, 마른 오징어, 문어 등의 어패류도 좋지 않다고 합니다. 먹으면 소화불량이나 구토를 유발할 수 있습니다. 특히, 마른 오징어 등은 몸 속에서 불어나기 때문에 소화불량에 시달리게 될 수 있습니다.</p>
+                </li>
+            </ul>
+        </div>
+    <section>
+
+    <!-- footer -->
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <a href="index.html"><img src="img/logo_w.png" width="200"></a>
+            </div>
+            <ul id="address">
+                <li>Kaywon University digital media design.</li>
+                <li>Email:1925cjstk@naver.com</li>
+                <li>copyright©2023 Lee Seung Yeon All rights reserved. <br>
+                    교육용 목적으로 사용되었습니다.</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+</body>
+</html>
